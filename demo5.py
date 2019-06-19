@@ -36,3 +36,6 @@ label = labels.get(key, key)
 result = person.get(key, 'not available')
 
 print("{}'s {} is {}.".format(name, label, result))
+
+print('Hello,', end='')
+print('world!')
